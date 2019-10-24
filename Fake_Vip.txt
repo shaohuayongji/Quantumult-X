@@ -120,6 +120,7 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 
 #camera360
 ^https:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt$ url script-response-body https://gist.githubusercontent.com/chankanzu/2c831b17dbd2c360f3c3192698a3c991/raw/e4e23223d32568a881cc2ffc4ba0d27a81669f3e/camera360.vip.js
+
 #zingtv
 ^http:\/\/api\.tv\.zing\.vn\/3\.1\/user* url script-response-body https://gist.githubusercontent.com/chankanzu/610d9dc35b43f430de6782e851b1d9df/raw/3f818021c6ce824b2cf5b257ae1c29d68ee453c4/zingtvvipv1.js
 
@@ -131,3 +132,7 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 
 #zingmp3
 ^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getUserInfo* url script-response-body https://gist.githubusercontent.com/chankanzu/ce95180b275e8aeb84ec27ff11ed105e/raw/db2d18cd744b6c5ff6ccf02c43c6b2e875547fd5/zingmp3.vip.js
+
+#4english
+^https:\/\/api\.vocabinnews\.com:9000\/v1\/users\/me\/functions$ url script-response-body
+https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/FunEng.vip.js
