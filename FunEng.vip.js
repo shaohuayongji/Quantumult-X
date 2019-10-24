@@ -26,7 +26,7 @@ if(url.indexOf(cons) != -1)
 			"flashSale": true
 		}]
 	},
-	"session": null
+	"session": 758865
 }   
 }
 $done({body: JSON.stringify(obj)});
