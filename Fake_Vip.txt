@@ -134,5 +134,9 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 ^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getUserInfo* url script-response-body https://gist.githubusercontent.com/chankanzu/ce95180b275e8aeb84ec27ff11ed105e/raw/db2d18cd744b6c5ff6ccf02c43c6b2e875547fd5/zingmp3.vip.js
 
 #4english
-^https:\/\/api\.vocabinnews\.com:9000\/v1\/users\/me\/functions$ url script-response-body
+^https:\/\/api\.vocabinnews\.com\:9000\/v1\/users\/me\/functions* url script-response-body
+https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/FunEng.vip.js
+
+#4english2
+^https:\/\/api\.vocabinnews\.com\:9000\/v3\/?deviceType=IOS&flashSale=1* url script-response-body
 https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/FunEng.vip.js
