@@ -1,0 +1,133 @@
+^https?:\/\/(\w+\.)?(ads|adserver|uniad|ad-|pagead|adformat|log\w?|tj|tongji|analysis|stat|stats|statis|trace|track|tracking|click)\.\w+\.(com|cn|org|info|io|net|vn) url reject
+
+//apple
+^http?://ocsp.apple.com/* url reject
+
+//facebook
+^https?://graph.facebook.com/network_ads_common/* url reject
+^https?://graph.facebook.com/.+activities url reject
+^https?://graph.facebook.com/.+advertiser_id=* url reject
+^https?://www.facebook.com/adnw_logging/* url reject
+
+//nhaccuatui
+^https?://graph.nhaccuatui.com/.+advs/* url reject
+^https?://graph.nhaccuatui.com/.+logs/* url reject
+^https?://graph.nhaccuatui.com/.+3gurlgeturlinfo url reject
+^https?://graph.nhaccuatui.com/.+deviceinfo url reject
+^https?://graph.nhaccuatui.com/.+notifyurlfirebase url reject
+^https?://avatar-nct.nixcdn.com/.+popup url reject
+
+//spotify
+^https?://spclient.wg.spotify.com/ad-logic/* url reject
+^https?://spclient.wg.spotify.com/ads/* url reject
+^https?://spclient.wg.spotify.com/.+ad_slot url reject
+^https?://spclient.wg.spotify.com/.+banners url reject
+^https?://spclient.wg.spotify.com/.+canvases url reject
+^https?://spclient.wg.spotify.com/.+crashlytics url reject
+^https?://spclient.wg.spotify.com/.+doubleclick.net url reject
+^https?://spclient.wg.spotify.com/.+enabled-tracks url reject
+^https?://spclient.wg.spotify.com/.+event url reject
+^https?://spclient.wg.spotify.com/.+promoted_offer url reject
+
+//google
+^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject
+^https?:\/\/.+\.googlevideo\.com\/.+&owc url reject
+^https?:\/\/.+\.googlevideo\.com\/.+ctier url reject
+^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost url reject
+^https?:\/\/.+\.googlevideo\.com\/videogoodput\? url reject
+^https?:\/\/.+\.youtube\.com\/.+get_ads url reject
+^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject
+^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject
+^https?:\/\/.+\.youtube\.com\/error_204 url reject
+^https?:\/\/.+\.youtube\.com\/get_midroll url reject
+^https?:\/\/.+\.youtube\.com\/pagead\/* url reject
+^https?:\/\/.+\.youtube\.com\/ptracking\? url reject
+^https?:\/\/play.googleapis.com/log* url reject
+^https?:\/\/www.googleapis.com/adsmeasurement/* url reject
+^https?:\/\/youtubei.googleapis.com/youtubei/.+ad_ url reject
+^https?:\/\/youtubei.googleapis.com/youtubei/.+log_ url reject
+
+//tiktok
+^https?:\/\/api\d?\.tiktokv\.com\/api\/ad\/ url reject
+^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ url reject
+
+//zalo
+^https?://qos-zdn.zaloapp.com/.+trackqos url reject
+^https?://centralized.zaloapp.com/.+tracking url reject
+^https?://oa.zalo.me/.+campaign=zalo url reject
+
+# vsco
+^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://gist.githubusercontent.com/chankanzu/756a0edf621a3c2b71083667b21c78ed/raw/38d201231d115c4862f1512f19b03cca53e3538b/vsco.js
+
+# gyroscope
+^https:\/\/api\.gyrosco\.pe\/v1\/account\/$ url script-response-body https://gist.githubusercontent.com/chankanzu/77425fe485d1b4180da32af4d98fbe82/raw/ac6ae2ce1ba505fd3d44374f224cd6af3cb38547/Gyroscope.vip.js
+
+# Termius 
+https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body https://gist.githubusercontent.com/chankanzu/48b400ad97e45db1be4d293a6e8c753a/raw/8b37c4e95cde3be6ccd22d521b6dd1c391ea0ed4/Terminus.js
+
+# PicsArt
+^https:\/\/api\.picsart\.com\/users\/show\/me\.json$ url script-response-body https://gist.githubusercontent.com/chankanzu/c44dd65d4acf2614817474da3e736a78/raw/3db019ecb6c07ae884eb34850c27decbe92155a7/picsArt.vip.js
+
+#Vivavideo
+^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip* url script-response-body https://gist.githubusercontent.com/chankanzu/a5917de53d4cb01b1405428b1efe45b5/raw/5f201aeb988d0c56e48c29ff1c712224c63fcf15/vivavideo.vip.js
+
+#Undfold
+^https:\/\/api\.unfold\.app\/v1\/ios\/receipts$ url script-response-body https://gist.githubusercontent.com/chankanzu/2cd06efa3b0cf1035fc837361f56980c/raw/04e80c585650fc7a9d35e5abad1f4d03b0abd217/Unfold.vip.js
+
+#Nhaccuatui
+^https:\/\/graph\.nhaccuatui\.com\/v6\/users\/info\?access_token=$ url script-response-body https://gist.githubusercontent.com/chankanzu/489725823fa6ac680ff36222ef62c4e6/raw/bf010848d7c74c06d4f95c48b309e16044aa7134/nhaccuatui.js
+
+#Memrise
+^https:\/\/api\.memrise\.com\/v1\.16\/(me|dashboard|leaderboards\/following\/\?limit=20&offset=0&period=week) url script-response-body https://gist.githubusercontent.com/chankanzu/1643fd9ee2f64ec9aa6c3b72aa1d97f5/raw/0b4d77b5cf029592968b1d3fa7e7e1c6e591c4be/memrise.vip.js
+
+#Gyroscope
+
+^https:\/\/api\.gyrosco\.pe\/v1\/account\/$ url script-response-body https://gist.githubusercontent.com/chankanzu/77425fe485d1b4180da32af4d98fbe82/raw/ac6ae2ce1ba505fd3d44374f224cd6af3cb38547/Gyroscope.vip.js
+
+# Jibjab
+^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user$ url script-response-body https://gist.githubusercontent.com/chankanzu/0fa5c8e0a15af8187103f9d416750448/raw/d3ce07d9361e3f1e2829a1c7c47601205a79c7c4/jibjab.vip.js
+
+#buyhack
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://gist.githubusercontent.com/chankanzu/0a11e9d92e52d3754a2879fc8fb90f15/raw/75a5b0a5c36cbc77a5b558f151efdb61b5fc421a/buy.itunes.apple.com.js
+
+#sync
+^https:\/\/api\.sync\.me\/api\/purchases\/(report_purchases|get_purchases)  url script-response-body https://gist.githubusercontent.com/chankanzu/fdf8f457150ea2b9115b2a988920b525/raw/5b671b273f4643d658638e43327a942959c71ca1/syn.me.js
+
+#elsaresponse
+^https:\/\/pool\.elsanow\.io\/user\/api\/v1\/purchase$ url script-response-body https://gist.githubusercontent.com/chankanzu/da06008bbfd748bd343b8b7789936977/raw/413f3845d5c87751a7dd0dcb298d4bbdd3b3fa02/elsa-response.js
+
+#elsarewrite
+^https:\/\/pool\.elsanow\.io\/content\/api\/v1\/modules\/download$  url request-header (\r\n)x-session-token:.+(\r\n) request-header $1x-session-token: F3S0w0bysBQFdbjtxpFurrFv2ItBBcBkVQxUddQW+9vjt2JXM751ksqq5GAWpkl+kk9nhig9BGh9JhYHQaokmendY6zLZDscHiRkZD2HrdJclKVCLordAARJhYIrf5C+5OSK6ax2TA45CKi8S09FEtYXN4noXO7gt42NT6WPIv6DKhdIwVxQuIAMLU5abmpMTDlyWeI4ulBWcOQbuZWWZg==
+
+
+#drops
+^https:\/\/lambda\.us-east-1\.amazonaws\.com\/2015-03-31\/functions\/prod-4-syncPurchases\/invocations$ url script-response-body https://gist.githubusercontent.com/chankanzu/a128477ddf5e0466f5cffeaf58bf8428/raw/9ca8386844cd76bb99ae569aac7b09acd5960985/drops.js
+
+#mondly
+^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ url script-response-body https://gist.githubusercontent.com/chankanzu/5df19984ff45561a824c36bec37ad4d5/raw/102e5e089a8dfb3747ad43db51149a5782aa0158/mondly.vip.js
+
+#busuu
+^https:\/\/api\.busuu\.com\/users\/me* url script-response-body https://gist.githubusercontent.com/chankanzu/413e08efe7b26feb1c778991344f3224/raw/a3ace7719088604442d1b1d8346bb94df062cec4/busuu.vip.js
+
+#Videoshow
+^https:\/\/owa\.videoshowiosglobalserver\.com:8095\/zone\/1\.0\.1\/iosPayClient\/payVerify\.htm\?osType=2$ url script-response-body https://gist.githubusercontent.com/chankanzu/13084056fc10c22c0d35a23235b531d8/raw/059d3401ca92759d101bd475b8a33c97b0b1d580/videoshow.vip.js
+
+#elevate
+^https:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url script-response-body https://gist.githubusercontent.com/chankanzu/8d9016103e635e860fe0e36eddb53165/raw/8d93ac700b192f75505afbc499e55ecbb4029ec3/elevate.vip.js
+
+#beautyplus
+^https:\/\/api-intl\.mr\.meitu\.com\/v1\/subs_offer_elg$ url script-response-body https://gist.githubusercontent.com/chankanzu/e08bd328bd8fa388cf925c2e09dc248c/raw/cc36af5b668c5415ba7b72c41ca07533b38f8455/beautyplusvip.js
+
+#camera360
+^https:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt$ url script-response-body https://gist.githubusercontent.com/chankanzu/2c831b17dbd2c360f3c3192698a3c991/raw/e4e23223d32568a881cc2ffc4ba0d27a81669f3e/camera360.vip.js
+#zingtv
+^http:\/\/api\.tv\.zing\.vn\/3\.1\/user* url script-response-body https://gist.githubusercontent.com/chankanzu/610d9dc35b43f430de6782e851b1d9df/raw/3f818021c6ce824b2cf5b257ae1c29d68ee453c4/zingtvvipv1.js
+
+#calm
+^https:\/\/api\.calm\.com\/me$ url script-response-body https://gist.githubusercontent.com/chankanzu/542c4e87bcfa09add00bb52268539b61/raw/d851a87e1e4e66d6c6b9c272d60836f0c60039de/calm.vip.js
+
+#remove_manage
+^https:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=*  url reject-img
+
+#zingmp3
+^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getUserInfo* url script-response-body https://gist.githubusercontent.com/chankanzu/ce95180b275e8aeb84ec27ff11ed105e/raw/db2d18cd744b6c5ff6ccf02c43c6b2e875547fd5/zingmp3.vip.js
