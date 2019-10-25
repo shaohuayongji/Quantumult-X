@@ -137,7 +137,7 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 ^https:\/\/api\.vocabinnews\.com* url script-response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/FunEng.vip.js
 
 #MonkeyJunior2
-^https:\/\/www\.monkeyuni\.net\/service\/v1\/utils\/appinfo* url response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/Monkeyjunior.js
+^https:\/\/www\.monkeyuni\.net\/service\/v1\/utils\/appinfo* url script-response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/Monkeyjunior.js
 
 #FunEnglish
 ^https:\/\/subs\.studycat\.net\/1\/getpurchasedata* url script-response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/FunenglishForKid.js
