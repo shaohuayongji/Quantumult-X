@@ -1,0 +1,544 @@
+{
+	"status": "success",
+	"message": "",
+	"code": 200,
+	"data": {
+		"time_expire": 0,
+		"licence": "",
+		"is_active": true,
+		"domain_download": {
+			"story": "http:\/\/storage.daybehoc.com\/storyv1\/",
+			"audio_book": "http:\/\/storage.daybehoc.com\/platformv1\/",
+			"lesson": "http:\/\/storage.daybehoc.com\/platformv1\/"
+		},
+		"is_show_ads_app": [2, 50],
+		"current_time": 1571974749,
+		"is_licence": true,
+		"country_code": "vi-VN",
+		"show_pay": false,
+		"free_story": {
+			"4": [1632, 557, 1167],
+			"1": [953, 1629, 1404]
+		},
+		"notify": [{
+			"title": "Ch\u00e0o m\u1eebng b\u1ea1n \u0111\u1ebfn v\u1edbi Monkey Stories!",
+			"message": "Ch\u01b0\u01a1ng tr\u00ecnh ti\u1ebfng Anh tr\u1ebb em to\u00e0n di\u1ec7n qua truy\u1ec7n tranh t\u01b0\u01a1ng t\u00e1c theo chu\u1ea9n M\u1ef9\r\n- Kho truy\u1ec7n tranh t\u01b0\u01a1ng t\u00e1c kh\u1ed5ng l\u1ed3 \u0111\u01b0\u1ee3c chia th\u00e0nh nhi\u1ec1u c\u1ea5p \u0111\u1ed9 ph\u00f9 h\u1ee3p v\u1edbi t\u1eebng l\u1ee9a tu\u1ed5i v\u00e0 tr\u00ecnh \u0111\u1ed9 c\u1ee7a tr\u1ebb\r\n- H\u1ec7 th\u1ed1ng b\u00e0i h\u1ecdc chu\u1ea9n M\u1ef9 gi\u00fap tr\u1ebb ph\u00e1t tri\u1ec3n \u0111\u1ea7y \u0111\u1ee7 4 k\u1ef9 n\u0103ng: Nghe, N\u00f3i, \u0110\u1ecdc, Vi\u1ebft \r\n- Kho s\u00e1ch n\u00f3i t\u1ed5ng h\u1ee3p nh\u1eefng truy\u1ec7n kinh \u0111i\u1ec3n tr\u00ean th\u1ebf gi\u1edbi m\u00e0 m\u1ecdi tr\u1ebb em \u0111\u1ec1u y\u00eau th\u00edch\r\n- \u00c1p d\u1ee5ng H\u1ec7 th\u1ed1ng ti\u00eau chu\u1ea9n chung trong gi\u1ea3ng d\u1ea1y ng\u00f4n ng\u1eef c\u1ee7a M\u1ef9\r\n- N\u1ed9i dung m\u1edbi c\u1eadp nh\u1eadt h\u00e0ng tu\u1ea7n\r\n- H\u1ecdc m\u1ecdi l\u00fac, m\u1ecdi n\u01a1i",
+			"url": "",
+			"created": "1516951928",
+			"id": "1",
+			"popup": 0
+		}, {
+			"title": "\u0110\u1eebng qu\u00ean t\u1ea1o th\u00f3i quen h\u1ecdc t\u1eadp h\u00e0ng ng\u00e0y cho b\u00e9",
+			"message": "\u0110\u00e3 \u0111\u1ebfn gi\u1edd h\u1ecdc Monkey r\u1ed3i ba m\u1eb9 \u01a1i!",
+			"url": "mj",
+			"created": "1568257870",
+			"id": "2",
+			"popup": 0
+		}],
+		"device_in_licence": {
+			"list_active": [{
+				"device_id": "3083692",
+				"active_date": "1524314003",
+				"device_info": "IPhone 6s"
+			}, {
+				"device_id": "2040311",
+				"active_date": "1505660651",
+				"device_info": "N\/A"
+			}, {
+				"device_id": "2050008",
+				"active_date": "1505878217",
+				"device_info": "Samsung(sm-t116nu) - Android"
+			}, {
+				"device_id": "2027871",
+				"active_date": "1506254248",
+				"device_info": "N\/A"
+			}, {
+				"device_id": "1782190",
+				"active_date": "1506694950",
+				"device_info": "IPhone 6 Plus"
+			}, {
+				"device_id": "2308671",
+				"active_date": "1513080660",
+				"device_info": "IPhone 6 Plus"
+			}, {
+				"device_id": "1840870",
+				"active_date": "1507938254",
+				"device_info": "IPhone 6s"
+			}, {
+				"device_id": "2298343",
+				"active_date": "1511915616",
+				"device_info": "Windows"
+			}, {
+				"device_id": "2352109",
+				"active_date": "1513231177",
+				"device_info": "IPad Air"
+			}, {
+				"device_id": "2050482",
+				"active_date": "1515766048",
+				"device_info": "Ipad air 2"
+			}, {
+				"device_id": "2551134",
+				"active_date": "1516811309",
+				"device_info": "Oppo(f1w) - Android"
+			}, {
+				"device_id": "2627952",
+				"active_date": "1518156034",
+				"device_info": "IPhone 7"
+			}, {
+				"device_id": "2655066",
+				"active_date": "1518768507",
+				"device_info": "N\/A"
+			}, {
+				"device_id": "2662419",
+				"active_date": "1519015116",
+				"device_info": "IPad Pro 105 Inch"
+			}, {
+				"device_id": "2662610",
+				"active_date": "1519020204",
+				"device_info": "Samsung(sm-j700h) - Android"
+			}, {
+				"device_id": "2666235",
+				"active_date": "1519113980",
+				"device_info": "IPhone 5s"
+			}, {
+				"device_id": "985725",
+				"active_date": "1520069156",
+				"device_info": "IPad Air 2"
+			}, {
+				"device_id": "2748440",
+				"active_date": "1520393856",
+				"device_info": "Samsung(sm-j500h) - Android"
+			}, {
+				"device_id": "2060580",
+				"active_date": "1521202353",
+				"device_info": "Xiaomi(mi 4w) - Android"
+			}, {
+				"device_id": "2786536",
+				"active_date": "1521385505",
+				"device_info": "Oppo(f1w) - Android"
+			}, {
+				"device_id": "2840192",
+				"active_date": "1521896232",
+				"device_info": "Samsung(sm-a510f) - Android"
+			}, {
+				"device_id": "2447941",
+				"active_date": "1522232951",
+				"device_info": "IPhone 6s Plus"
+			}, {
+				"device_id": "2889711",
+				"active_date": "1522423770",
+				"device_info": "Asus(asus_x00dd) - Android"
+			}, {
+				"device_id": "2033026",
+				"active_date": "1523584665",
+				"device_info": "Xiaomi (mi-4c) - Android"
+			}, {
+				"device_id": "3019710",
+				"active_date": "1523800248",
+				"device_info": "IPhone 6"
+			}, {
+				"device_id": "3030144",
+				"active_date": "1523886360",
+				"device_info": "Pantech(im-a890s) - Android"
+			}, {
+				"device_id": "3080700",
+				"active_date": "1524295578",
+				"device_info": "Huawei(bg2-u01) - Android"
+			}, {
+				"device_id": "3350730",
+				"active_date": "1527124298",
+				"device_info": "IPhone 6 Plus"
+			}, {
+				"device_id": "3415766",
+				"active_date": "1527146902",
+				"device_info": "IPhone 6s Plus"
+			}, {
+				"device_id": "3417388",
+				"active_date": "1527170023",
+				"device_info": "IPhone 7"
+			}, {
+				"device_id": "3404338",
+				"active_date": "1527477120",
+				"device_info": "Htc(htc 10) - Android"
+			}, {
+				"device_id": "3331126",
+				"active_date": "1527495935",
+				"device_info": "N\/A"
+			}, {
+				"device_id": "3456960",
+				"active_date": "1527497189",
+				"device_info": "IPhone 6s"
+			}, {
+				"device_id": "2132687",
+				"active_date": "1527517430",
+				"device_info": "IPhone 6 Plus"
+			}, {
+				"device_id": "2972804",
+				"active_date": "1527562013",
+				"device_info": "Oppo(r7kf) - Android"
+			}, {
+				"device_id": "3211540",
+				"active_date": "1527566041",
+				"device_info": "Windows"
+			}, {
+				"device_id": "1155319",
+				"active_date": "1527676181",
+				"device_info": "IPhone 6 Plus"
+			}, {
+				"device_id": "3458527",
+				"active_date": "1527683836",
+				"device_info": "IPhone 6"
+			}, {
+				"device_id": "3455526",
+				"active_date": "1528365385",
+				"device_info": "Samsung(sm-g930k) - Android"
+			}, {
+				"device_id": "3892390",
+				"active_date": "1530181950",
+				"device_info": "IPhone 7 Plus"
+			}, {
+				"device_id": "3054162",
+				"active_date": "1530494455",
+				"device_info": "IPhone 6"
+			}, {
+				"device_id": "3999296",
+				"active_date": "1530887664",
+				"device_info": "Hmd global(ta-1021) - Android"
+			}, {
+				"device_id": "4409380",
+				"active_date": "1534069379",
+				"device_info": "Oppo(a33w) - Android"
+			}, {
+				"device_id": "4454722",
+				"active_date": "1534501824",
+				"device_info": "Windows"
+			}, {
+				"device_id": "4581796",
+				"active_date": "1536297977",
+				"device_info": "IPad 6"
+			}, {
+				"device_id": "4636476",
+				"active_date": "1537158623",
+				"device_info": "IPad 6"
+			}, {
+				"device_id": "4641860",
+				"active_date": "1537251900",
+				"device_info": "Unknown (unknown) - Android"
+			}, {
+				"device_id": "4642477",
+				"active_date": "1537263947",
+				"device_info": "IPad 6"
+			}, {
+				"device_id": "4646483",
+				"active_date": "1537322849",
+				"device_info": "IPad Mini 4"
+			}, {
+				"device_id": "4647438",
+				"active_date": "1537340567",
+				"device_info": "Iphone 6"
+			}, {
+				"device_id": "5749482",
+				"active_date": "1558789557",
+				"device_info": "Xiaomi (redmi - Android"
+			}, {
+				"device_id": "5751899",
+				"active_date": "1558796192",
+				"device_info": "Samsung(sm-n950f) - Android"
+			}, {
+				"device_id": "5702843",
+				"active_date": "1558827780",
+				"device_info": "Samsung(sm-p601) - Android"
+			}],
+			"list_remove": [{
+				"device_id": "1985129",
+				"active_date": "1505705479",
+				"device_info": "IPhone 6",
+				"time_remove": "1542072135"
+			}, {
+				"device_id": "1141462",
+				"active_date": "1527585471",
+				"device_info": "IPhone 5c",
+				"time_remove": "1545801192"
+			}, {
+				"device_id": "2086519",
+				"active_date": "",
+				"device_info": "Lge (nexus - Android",
+				"time_remove": "1523411928"
+			}, {
+				"device_id": "2343101",
+				"active_date": "",
+				"device_info": "IPhone 6 Plus",
+				"time_remove": "1526633643"
+			}, {
+				"device_id": "2549662",
+				"active_date": "",
+				"device_info": "N\/A",
+				"time_remove": "1528247167"
+			}, {
+				"device_id": "2745819",
+				"active_date": "",
+				"device_info": "Windows",
+				"time_remove": "1529070027"
+			}]
+		},
+		"phone": "***0792",
+		"email_address": "**ct@monkeyjunior.com",
+		"total_active": "59 \/ 55",
+		"products": [{
+			"phone": "***0792",
+			"email_address": "**ct@monkeyjunior.com",
+			"total_active": "59 \/ 55",
+			"product_id": "com.earlystart.stories.lifetime",
+			"product_name": "G\u00f3i s\u1eed d\u1ee5ng tr\u1ecdn \u0111\u1eddi",
+			"list_device": {
+				"list_active": [{
+					"device_id": "3083692",
+					"active_date": "1524314003",
+					"device_info": "IPhone 6s"
+				}, {
+					"device_id": "2040311",
+					"active_date": "1505660651",
+					"device_info": "N\/A"
+				}, {
+					"device_id": "2050008",
+					"active_date": "1505878217",
+					"device_info": "Samsung(sm-t116nu) - Android"
+				}, {
+					"device_id": "2027871",
+					"active_date": "1506254248",
+					"device_info": "N\/A"
+				}, {
+					"device_id": "1782190",
+					"active_date": "1506694950",
+					"device_info": "IPhone 6 Plus"
+				}, {
+					"device_id": "2308671",
+					"active_date": "1513080660",
+					"device_info": "IPhone 6 Plus"
+				}, {
+					"device_id": "1840870",
+					"active_date": "1507938254",
+					"device_info": "IPhone 6s"
+				}, {
+					"device_id": "2298343",
+					"active_date": "1511915616",
+					"device_info": "Windows"
+				}, {
+					"device_id": "2352109",
+					"active_date": "1513231177",
+					"device_info": "IPad Air"
+				}, {
+					"device_id": "2050482",
+					"active_date": "1515766048",
+					"device_info": "Ipad air 2"
+				}, {
+					"device_id": "2551134",
+					"active_date": "1516811309",
+					"device_info": "Oppo(f1w) - Android"
+				}, {
+					"device_id": "2627952",
+					"active_date": "1518156034",
+					"device_info": "IPhone 7"
+				}, {
+					"device_id": "2655066",
+					"active_date": "1518768507",
+					"device_info": "N\/A"
+				}, {
+					"device_id": "2662419",
+					"active_date": "1519015116",
+					"device_info": "IPad Pro 105 Inch"
+				}, {
+					"device_id": "2662610",
+					"active_date": "1519020204",
+					"device_info": "Samsung(sm-j700h) - Android"
+				}, {
+					"device_id": "2666235",
+					"active_date": "1519113980",
+					"device_info": "IPhone 5s"
+				}, {
+					"device_id": "985725",
+					"active_date": "1520069156",
+					"device_info": "IPad Air 2"
+				}, {
+					"device_id": "2748440",
+					"active_date": "1520393856",
+					"device_info": "Samsung(sm-j500h) - Android"
+				}, {
+					"device_id": "2060580",
+					"active_date": "1521202353",
+					"device_info": "Xiaomi(mi 4w) - Android"
+				}, {
+					"device_id": "2786536",
+					"active_date": "1521385505",
+					"device_info": "Oppo(f1w) - Android"
+				}, {
+					"device_id": "2840192",
+					"active_date": "1521896232",
+					"device_info": "Samsung(sm-a510f) - Android"
+				}, {
+					"device_id": "2447941",
+					"active_date": "1522232951",
+					"device_info": "IPhone 6s Plus"
+				}, {
+					"device_id": "2889711",
+					"active_date": "1522423770",
+					"device_info": "Asus(asus_x00dd) - Android"
+				}, {
+					"device_id": "2033026",
+					"active_date": "1523584665",
+					"device_info": "Xiaomi (mi-4c) - Android"
+				}, {
+					"device_id": "3019710",
+					"active_date": "1523800248",
+					"device_info": "IPhone 6"
+				}, {
+					"device_id": "3030144",
+					"active_date": "1523886360",
+					"device_info": "Pantech(im-a890s) - Android"
+				}, {
+					"device_id": "3080700",
+					"active_date": "1524295578",
+					"device_info": "Huawei(bg2-u01) - Android"
+				}, {
+					"device_id": "3350730",
+					"active_date": "1527124298",
+					"device_info": "IPhone 6 Plus"
+				}, {
+					"device_id": "3415766",
+					"active_date": "1527146902",
+					"device_info": "IPhone 6s Plus"
+				}, {
+					"device_id": "3417388",
+					"active_date": "1527170023",
+					"device_info": "IPhone 7"
+				}, {
+					"device_id": "3404338",
+					"active_date": "1527477120",
+					"device_info": "Htc(htc 10) - Android"
+				}, {
+					"device_id": "3331126",
+					"active_date": "1527495935",
+					"device_info": "N\/A"
+				}, {
+					"device_id": "3456960",
+					"active_date": "1527497189",
+					"device_info": "IPhone 6s"
+				}, {
+					"device_id": "2132687",
+					"active_date": "1527517430",
+					"device_info": "IPhone 6 Plus"
+				}, {
+					"device_id": "2972804",
+					"active_date": "1527562013",
+					"device_info": "Oppo(r7kf) - Android"
+				}, {
+					"device_id": "3211540",
+					"active_date": "1527566041",
+					"device_info": "Windows"
+				}, {
+					"device_id": "1155319",
+					"active_date": "1527676181",
+					"device_info": "IPhone 6 Plus"
+				}, {
+					"device_id": "3458527",
+					"active_date": "1527683836",
+					"device_info": "IPhone 6"
+				}, {
+					"device_id": "3455526",
+					"active_date": "1528365385",
+					"device_info": "Samsung(sm-g930k) - Android"
+				}, {
+					"device_id": "3892390",
+					"active_date": "1530181950",
+					"device_info": "IPhone 7 Plus"
+				}, {
+					"device_id": "3054162",
+					"active_date": "1530494455",
+					"device_info": "IPhone 6"
+				}, {
+					"device_id": "3999296",
+					"active_date": "1530887664",
+					"device_info": "Hmd global(ta-1021) - Android"
+				}, {
+					"device_id": "4409380",
+					"active_date": "1534069379",
+					"device_info": "Oppo(a33w) - Android"
+				}, {
+					"device_id": "4454722",
+					"active_date": "1534501824",
+					"device_info": "Windows"
+				}, {
+					"device_id": "4581796",
+					"active_date": "1536297977",
+					"device_info": "IPad 6"
+				}, {
+					"device_id": "4636476",
+					"active_date": "1537158623",
+					"device_info": "IPad 6"
+				}, {
+					"device_id": "4641860",
+					"active_date": "1537251900",
+					"device_info": "Unknown (unknown) - Android"
+				}, {
+					"device_id": "4642477",
+					"active_date": "1537263947",
+					"device_info": "IPad 6"
+				}, {
+					"device_id": "4646483",
+					"active_date": "1537322849",
+					"device_info": "IPad Mini 4"
+				}, {
+					"device_id": "4647438",
+					"active_date": "1537340567",
+					"device_info": "Iphone 6"
+				}, {
+					"device_id": "5749482",
+					"active_date": "1558789557",
+					"device_info": "Xiaomi (redmi - Android"
+				}, {
+					"device_id": "5751899",
+					"active_date": "1558796192",
+					"device_info": "Samsung(sm-n950f) - Android"
+				}, {
+					"device_id": "5702843",
+					"active_date": "1558827780",
+					"device_info": "Samsung(sm-p601) - Android"
+				}],
+				"list_remove": [{
+					"device_id": "1985129",
+					"active_date": "1505705479",
+					"device_info": "IPhone 6",
+					"time_remove": "1542072135"
+				}, {
+					"device_id": "1141462",
+					"active_date": "1527585471",
+					"device_info": "IPhone 5c",
+					"time_remove": "1545801192"
+				}, {
+					"device_id": "2086519",
+					"active_date": "",
+					"device_info": "Lge (nexus - Android",
+					"time_remove": "1523411928"
+				}, {
+					"device_id": "2343101",
+					"active_date": "",
+					"device_info": "IPhone 6 Plus",
+					"time_remove": "1526633643"
+				}, {
+					"device_id": "2549662",
+					"active_date": "",
+					"device_info": "N\/A",
+					"time_remove": "1528247167"
+				}, {
+					"device_id": "2745819",
+					"active_date": "",
+					"device_info": "Windows",
+					"time_remove": "1529070027"
+				}]
+			},
+			"time_expire": "0",
+			"status": "\u0110ang s\u1eed d\u1ee5ng"
+		}],
+		"pay_inapp": false
+	}
+}
