@@ -23,7 +23,7 @@ server=8.8.4.4
 ;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.txt, tag=Sample, force-policy=your-policy-name, enabled=true
 
 [rewrite_remote]
-https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/Fake_Vip.txt, tag=KhanhDu_Fake_vip, enabled=true
+https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/2Fake_Vip.txt, tag=KhDu_Fake_vip, enabled=true
 
 
 [server_local]
