@@ -136,9 +136,6 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 #4english
 ^https:\/\/api\.vocabinnews\.com* url script-response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/FunEng.vip.js
 
-#MonkeyJunior
-^https:\/\/www\.monkeyuni\.net\/service\/v1/utils\/appinfo* url request-header (\r\n)User-Agent:.+(\r\n) request-header app_id=2&appid=2&device_id=4838474&os=ios&info=&subversion=24.1.9&app_ver=24.1.9&ver=24&device_type=4&lang_id=1&key_has=bnVsbHxBMUUwRUJFNi05MDM2LTRCNTItOEY3MC1CN0MzMTA5Rjc1RER8NTE0MWUyMGRiOWNiODZlMjc2ZGZjMjQ2NTc3NmI1MWI%3D&lang=en-US
-
 #MonkeyJunior2
 ^https:\/\/www\.monkeyuni\.net\/service\/v1\/utils\/appinfo* url response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/Monkeyjunior.js
 
