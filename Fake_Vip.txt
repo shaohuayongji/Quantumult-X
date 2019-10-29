@@ -142,9 +142,6 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 #FunEnglish
 ^https:\/\/subs\.studycat\.net\/1\/getpurchasedata$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/FunenglishForKid.js
 
-#MonkeyJunior2
-^https:\/\/www\.monkeyuni\.net\/service\/v1\/utils\/appinfo* url script-response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/Monkeyjunior.js
-
 #camera360
 ^https:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/Scripting-master/camera360.vip.js
 
@@ -159,3 +156,8 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 
 #zingmp3
 ^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getUserInfo* url script-response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/Scripting-master/zingmp3.vip.js
+
+#MonkeyJunior1
+^https:\/\/api\.monkeyuni\.net\/api\/v1\/mobile\/account\/load-update* url script-response-body https://gist.githubusercontent.com/chankanzu/29dd87bc4f0b5bf206845d08745d72cf/raw/06cd9d934c5699ebc87b6434f3e7c4b5c114f733/MJunior.js
+#MonkeyJunior_Profile
+^https:\/\/api.monkeyuni.net/api/v1/mobile/account/profile-list* url script-response-body https://gist.githubusercontent.com/chankanzu/2d9556c99d411b12b0b51fc987080ce3/raw/58f812c6c8cb820cab1da19cd2a4e0920e677459/MJunior_profile.js
