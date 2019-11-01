@@ -154,12 +154,6 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 #zingmp3
 ^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getUserInfo* url script-response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/Scripting-master/zingmp3.vip.js
 
-#MonkeyJunior1
-^https:\/\/api\.monkeyuni\.net\/api\/v1\/mobile\/account\/load-update* url script-response-body https://gist.githubusercontent.com/chankanzu/29dd87bc4f0b5bf206845d08745d72cf/raw/06cd9d934c5699ebc87b6434f3e7c4b5c114f733/MJunior.js
-
-#MonkeyJunior_Profile
-^https:\/\/api.monkeyuni.net/api/v1/mobile/account/profile-list* url script-response-body https://gist.githubusercontent.com/chankanzu/2d9556c99d411b12b0b51fc987080ce3/raw/58f812c6c8cb820cab1da19cd2a4e0920e677459/MJunior_profile.js
-
 #lightroom
 ^https:\/\/photos\.adobe\.io\/v2\/accounts* url response-body "status":.* response-body "status":"subscriber","current_subs":{"product_id":"lightroom","store":"adobe","purchase_date":"2019-10-10T16:32:10.254954Z","sao":{"inpkg_CCES":"0","inpkg_CCLE":"1","inpkg_CCSN":"0","inpkg_CCSV":"0","inpkg_LCCC":"0","inpkg_LPES":"0","inpkg_LRBRL":"0","inpkg_LRMAC":"0","inpkg_LRMC":"0","inpkg_LRMP":"0","inpkg_LRTB":"0","inpkg_PHLT":"0","inpkg_PHLT2":"0","inpkg_PLES":"0","storage_quota":"100"}},"storage":{"used":0,"limit":1154487209165,"display_limit":1099511627776,"warn":992137445376}},"avatar":{"placeholder":true}}
 
@@ -186,3 +180,10 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 
 #adguard
 ^https://mobile-api.adguard.com/api/1.0/ios_validate_receipt url 302 https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/Scripting-master/adguard.vip
+
+#Mj1
+^https:\/\/www\.monkeyuni\.net\/service\/v1\/utils\/syncuserdata$ url script-response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/MJ1.js
+#Mj2
+^https:\/\/www\.monkeyuni\.net\/service\/v1\/utils\/appinfo* url script-response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/MJ2.js
+#Mj3
+^https://www.monkeyuni.net/monkeyv8/update/indexv2* url script-response-body https://raw.githubusercontent.com/chankanzu/Quantumult-X/master/Mj3.js
