@@ -1,3 +1,7 @@
+
+var obj = JSON.parse($response.body);
+
+obj["subscriptions"] = [
 {
 	"status": "success",
 	"message": "",
@@ -28,3 +32,5 @@
 		"coupon_code": "STORIES"
 	}
 }
+  ];
+$done({body: JSON.st
